@@ -1,0 +1,23 @@
+{
+  "name": "practika",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vue": "^2.6.12",
+    "webpack": "^5.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@webpack-cli/init": "^1.0.2",
+    "axios": "^0.21.0",
+    "vue-axios": "^3.1.2",
+    "webpack-cli": "^4.1.0"
+  }
+}
